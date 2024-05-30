@@ -1,9 +1,36 @@
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url('assets/fonts/source-sans-pro/SourceSansPro-Black') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-BlackIt') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-Bold') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-ExtraLight') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-ExtraLightIt') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-It') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-Light') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-LightIt') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-Regular') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-Semibold') format('opentype'),
+       url('assets/fonts/source-sans-pro/SourceSansPro-SemiboldIt') format('opentype');
+}
+
+@font-face {
+  font-family: 'spin-cycle';
+  src: url('/assets/fonts/Spin-Cycle-OT/spincycle_3d_ot') format('opentype'),
+       url('/assets/fonts/Spin-Cycle-OT/spincycle_ot') format('opentype');
+}
+
+
 /* General styles */
 body {
-  font-family: 'Coiny', cursive;
+  body
+  font-family: 'source-sans-pro', SourceSansPro-Black, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(./assets/pic_1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .school-page {
@@ -25,7 +52,7 @@ body {
   align-items: center;
 }
 
-.logo img {
+.logo-img {
   margin-right: 10px;
 }
 
@@ -40,10 +67,8 @@ body {
 
 /* Hero section styles */
 .hero {
-  background: url('/bitmap.png') center/cover no-repeat;
   text-align: center;
   padding: 50px 0;
-  background: #f0f0f0;
 }
 
 .hero-title {
@@ -232,4 +257,8 @@ body {
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
+}
+
+.test-border {
+  border:solid red 1px;
 }
