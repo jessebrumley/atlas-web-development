@@ -1,0 +1,235 @@
+/* General styles */
+body {
+  font-family: 'Coiny', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.school-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+  background: url('/bitmap.png') center/cover no-repeat;
+  text-align: center;
+  padding: 50px 0;
+  background: #f0f0f0;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-option {
+  cursor: pointer;
+}
+
+.register-button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 18px;
+}
+
+/* Pros section styles */
+.pros {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.pro {
+  text-align: center;
+}
+
+.pro-avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.pro-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pro-title {
+  font-size: 16px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  background: #f0f0f0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+}
+
+.testimonial-title {
+  font-style: italic;
+}
+
+/* Tutorials section styles */
+.tutorials {
+  padding: 50px 0;
+}
+
+.tutorial-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tutorial {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.tutorial-preview {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.tutorial-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tutorial-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tutorial-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.tutorial-instructor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.instructor-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.instructor-name {
+  font-size: 16px;
+}
+
+.tutorial-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tutorial-rating {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.tutorial-duration {
+  font-size: 16px;
+}
+
+/* Membership section styles */
+.membership {
+  /* background: #f0f0f0; */
+  background: url(./assets/vectors/container_x2.svg)
+  padding: 50px 0;
+  text-align: center;
+}
+
+.membership-benefits {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  max-width: 200px;
+  text-align: center;
+}
+
+.benefit-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
