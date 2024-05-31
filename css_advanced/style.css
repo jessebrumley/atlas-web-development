@@ -1,33 +1,22 @@
+/* Fonts */
 @font-face {
   font-family: 'source-sans-pro';
   src: url('assets/fonts/source-sans-pro/SourceSansPro-Black') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-BlackIt') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-Bold') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-ExtraLight') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-ExtraLightIt') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-It') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-Light') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-LightIt') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-Regular') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-Semibold') format('opentype'),
-       url('assets/fonts/source-sans-pro/SourceSansPro-SemiboldIt') format('opentype');
 }
-
 @font-face {
   font-family: 'spin-cycle';
-  src: url('/assets/fonts/Spin-Cycle-OT/spincycle_3d_ot') format('opentype'),
-       url('/assets/fonts/Spin-Cycle-OT/spincycle_ot') format('opentype');
+  src: url('/assets/fonts/Spin-Cycle-OT/spincycle_ot') format('opentype');
 }
 
 
 /* General styles */
 body {
-  body
-  font-family: 'source-sans-pro', SourceSansPro-Black, sans-serif;
+  font-family: 'source-sans-pro', sans-serif;
+  color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(./assets/pic_1.jpg);
+  background-image: url(./assets/images/pic_1.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -53,7 +42,8 @@ body {
 }
 
 .logo-img {
-  margin-right: 10px;
+  margin-left: 50%;
+  scale: 50%;
 }
 
 .menu {
