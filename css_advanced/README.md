@@ -14,4 +14,4 @@ The purpose of this project is to learn how to apply CSS to web-design by clonin
 * [School Page](https://jessebrumley.github.io/atlas-web-development/css_advanced/)
 
 # Author
-* [Jesse Brumley](https://https://github.com/jessebrumley)
+* [Jesse Brumley](https://github.com/jessebrumley)
