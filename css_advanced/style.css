@@ -23,9 +23,8 @@ body {
   text-indent: 0;
 }
 
-.school-page {
-  margin: 0 auto;
-  padding: 0 20px;
+.container {
+  width: 100%;
 }
 
 /* Header styles */
@@ -175,65 +174,89 @@ body {
   margin: -20px;
   color:#071629;
   background-color: white;
+  width: 100%;
 }
 
-.tutorial {
-  background: #fff;
+.tutorial-section {
+  width: calc(100% - 128px);
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  gap: 16px;
+  background: white;
+  padding: 64px;
 }
 
-.tutorial-preview {
-  position: relative;
-  scale: 50%;
-  border-radius: 5px 5px 0 0;
+.tutorial-card {
+  background: white;
 }
 
-.tutorial-play {
-  position: relative;
+.tutorial-card-info {
+  padding: 12px;
+}
+
+.image-container {
+  width: 100%;
+  height: 154px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial-thumbnail {
+  width: 100%;
+}
+
+.play {
+  width: 64px;
+  height: 64px;
+}
+
+.tutorial-author {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.flex-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tutorial-title {
   font-size: 16px;
   text-align: left;
   font-weight: bold;
-  margin-left: 25px;
+  color: 071629;
 }
 
 .tutorial-description {
   font-size: 14px;
   text-align: left;
   color: #071629;
-  margin: 25px;
-  padding: 50px;
   flex-wrap: wrap;
 }
 
-.tutorial-instructor {
-  display: flex;
-  gap: 10px;
-}
-
 .instructor-avatar {
-  margin-top: 25px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 
 .instructor-name {
-  margin-top: 25px;
   font-size: 16px;
   color: #C271FF;
   font-weight: bold;
-}
-
-.tutorial-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
 }
 
 .tutorial-rating {
@@ -279,13 +302,4 @@ body {
 
 .test {
   border:solid red 2px;
-}
-
-.above {
-  z-index 2;
-  background-image:  url('./assets/images/play.png');
-}
-
-.below {
-  z-index 1;
 }
